@@ -16,8 +16,8 @@ ALLOW_PERMISSION_COMMAND := chmod +x
 endif
 
 .PHONY: all $(TASKS)
-
-TASKS := task2_1 task2_2 task3_1 task3_2
+#task2_1 task2_2 task3_1 task3_2
+TASKS :=  task2_2 task3_3 task3_5
 all: $(TASKS)
 
 clean:
