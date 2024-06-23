@@ -254,3 +254,23 @@ Field: Electronics and Telecommunication Engineering
 Class: ET1-05 - K66
 GPA: 2.50
 ```
+
+#### 3.10. Nhận vào một chuỗi từ bàn phím, tách các trường dữ liệu và in ra màn hình
+
+- Định dạng input: {request:[Request - tối đa 10 ký tự],value:{[real1] + [imagine1]i,[real2] + [imagine2]i}}
+Định dạng output:
+
+- Yeu cau: "[Request]"
+So phuc 1: [real1] + [imagine1].i
+So phuc 2: [real2] + [imagine2].i
+
+- Input: Chuỗi (1 - 2000 ký tự)
+```
+{request:subtract,value:{1.123 + -9.34252i,-1353.1353 + 6.4352i}}
+```
+- Output:
+```
+Yeu cau: "subtract"
+So phuc 1: 1.123 + -9.34252.i
+So phuc 2: -1353.1353 + 6.4352.i
+```
