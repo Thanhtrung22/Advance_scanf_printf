@@ -17,7 +17,7 @@ endif
 
 .PHONY: all $(TASKS)
 #task2_1 task2_2 task3_1 task3_2
-TASKS := task3_7
+TASKS := task3_8
 all: $(TASKS)
 
 clean:
